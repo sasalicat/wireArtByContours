@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\gui">
+      <UniqueIdentifier>{f452a4b2-45c2-487a-89de-29d47b625112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\gui">
+      <UniqueIdentifier>{ba5c06b0-652c-4448-9933-54930b8ab35e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="polarMap.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="tensorMap.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="drawMap.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="polarMap_gdpc.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>標頭檔\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>標頭檔\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>標頭檔\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_glut.h">
+      <Filter>標頭檔\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl2.h">
+      <Filter>標頭檔\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>標頭檔\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>標頭檔\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>標頭檔\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imageConvert.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="intersectionOptimizer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="geodesicPathFinder.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="curvature3D.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="IS_FeatureMatrix.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="geodesicAsynFinder.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="meshCreater.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="WireComposition.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="sabi.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="polarMap.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="tensorMap.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="drawMap.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="polarMap_gdpc.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>原始程式檔\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>原始程式檔\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>原始程式檔\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glut.cpp">
+      <Filter>原始程式檔\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl2.cpp">
+      <Filter>原始程式檔\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>原始程式檔\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="imageConvert.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="intersectionOptimizer.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="geodesicPathFinder.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="curvature3D.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="IS_FeatureMatrix.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="geodesicAsynFinder.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="meshCreater.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="WireComposition.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
