@@ -495,7 +495,7 @@ struct contour
 		{
 			//cout << "nowIndex:" << nowIndex << " counter:" << counter;
 			int nextIndex = (nowIndex + 1) % pfts.size();//使超出範圍的index回到頭部,打個比方pfts.size()=10,nowIndex=9,則nowIndex+1=10,10%10=0,所以nextIndex變為0
-			while ((counter + 1)*interval <= pfts[nextIndex].angleByCal){//下一個點人在nextIndex的pfts的角度內
+			while ((counter + 1)*interval <= pfts[nextIndex].angleByCal&&counter<sampleNumber-1){//下一個點人在nextIndex的pfts的角度內
 				counter++;
 				OpenMesh::Vec3f point = pointFromTwoSource::Interpolation(pfts[nowIndex], pfts[nextIndex], counter*interval);
 				result[counter] = point;
