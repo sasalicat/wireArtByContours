@@ -59,8 +59,8 @@ void meshCreater::createFaceBtw(OpenMesh::Vec3f p1, OpenMesh::Vec3f p2, OpenMesh
 void meshCreater::createCylinderBtw(OpenMesh::Vec3f p1, OpenMesh::Vec3f p2, OpenMesh::Vec3f zAxis){
 	OpenMesh::Vec3f AxisX = (p2 - p1).normalize();
 	OpenMesh::Vec3f tempZ = zAxis.normalize();
-	OpenMesh::Vec3f AxisY = OpenMesh::cross(AxisX, tempZ);
-	OpenMesh::Vec3f AxisZ = OpenMesh::cross(AxisY,AxisX);
+	OpenMesh::Vec3f AxisY = OpenMesh::cross(AxisX, tempZ).normalize();
+	OpenMesh::Vec3f AxisZ = OpenMesh::cross(AxisY,AxisX).normalize();
 	
 	float interval = 1 /(float)cylinderPointNum;
 	vector<MyMesh::VertexHandle> vhandles(cylinderPointNum * 2);

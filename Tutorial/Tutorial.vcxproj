@@ -189,7 +189,6 @@
     <ClCompile Include="imgui\imgui_widgets.cpp" />
     <ClCompile Include="intersectionOptimizer.cpp" />
     <ClCompile Include="IS_FeatureMatrix.cpp" />
-    <ClCompile Include="meshCreater.cpp" />
     <ClCompile Include="polarMap.cpp" />
     <ClCompile Include="polarMap_gdpc.cpp" />
     <ClCompile Include="sabi.cpp" />

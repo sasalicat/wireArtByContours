@@ -1839,7 +1839,7 @@ public:
 							//tempPoint.clear();
 							//tempColor.clear();
 							tempPaths.clear();
-							map<float, vector<OpenMesh::Vec3f>> pathRecords;
+							//map<float, vector<OpenMesh::Vec3f>> pathRecords;
 							for each (vector<pixelPoint> eline in elemLines)
 							{
 								vector<pathRequestPoint> lineRquest;
